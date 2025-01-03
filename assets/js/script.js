@@ -2,6 +2,7 @@
 
 // Element toggle function
 const elementToggleFunc = function (elem) { 
+  console.log(elem);
   if (elem) elem.classList.toggle("active"); 
 }
 
@@ -11,9 +12,9 @@ const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
 // Sidebar toggle functionality for mobile
 if (sidebar && sidebarBtn) {
-  sidebarBtn.addEventListener("click", function () { 
+  // sidebarBtn.addEventListener("click", function () { 
     elementToggleFunc(sidebar); 
-  });
+  // });
 }
 
 // Testimonials variables

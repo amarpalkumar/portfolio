@@ -1334,7 +1334,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 30px;
   }
 
-  .sidebar.active { max-height: 584px; }
+  .sidebar.active { max-height: fit-content; }
 
   .sidebar-info { gap: 25px; }
 
